@@ -6,15 +6,7 @@ A tiny JupyterLab extension to automatically trust `.html` files.
 Useful mainly in a Jupyterlite context.  
 It would be simpler if Jupyterlab/lite had an option for that.
 
-
 https://user-images.githubusercontent.com/2219383/178114640-4c0bd324-fc77-43a8-9a9d-8161e4beb952.mp4
-
-
-<img src="./img/demo-jlab-trust-html.mp4" width=500px>
-
-<video width="500" controls>
-  <source src="./img/demo-jlab-trust-html.mp4" type="video/mp4">
-</video>
 
 ## Requirements
 
