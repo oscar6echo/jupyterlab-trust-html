@@ -1,7 +1,16 @@
 # jupyterlab_trust_html
 
-[![Github Actions Status](https://github.com/github_username/jupyterlab_trust_html/workflows/Build/badge.svg)](https://github.com/github_username/jupyterlab_trust_html/actions/workflows/build.yml)
-A Jupyterlab extension to automatically trust html files.
+## Overview
+
+A tiny JupyterLab extension to automatically trust `.html` files.  
+Useful mainly in a Jupyterlite context.  
+It would be simpler if Jupyterlab/lite had an option for that.
+
+<img src="./img/demo-jlab-trust-html.mp4" width=500px>
+
+<video width="500" controls>
+  <source src="./img/demo-jlab-trust-html.mp4" type="video/mp4">
+</video>
 
 ## Requirements
 
@@ -9,10 +18,13 @@ A Jupyterlab extension to automatically trust html files.
 
 ## Install
 
-To install the extension, execute:
-
 ```bash
+# if/when published
 pip install jupyterlab_trust_html
+
+# else git clone repo and install locally from repo root folder
+jlpm run build:prod
+pip install .
 ```
 
 ## Uninstall
